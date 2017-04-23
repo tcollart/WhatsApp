@@ -72,11 +72,13 @@ const styles = StyleSheet.create({
   },
   messageContainer: {
     flex: 1,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    alignSelf: 'stretch'
   },
   message: {
+    flex: 1,
     color: '#424242',
-    fontSize: 14,
+    fontSize: 14
   },
   done: {
     width: 10,
